@@ -1,3 +1,7 @@
+/* * {
+    
+    outline: 1px solid red; 
+} */
 body {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
@@ -216,6 +220,9 @@ title3{
 }
 .brand{
     margin-top: 1px;
+}
+.font{
+    font-size: 12px;
 }
 
 @media screen and (min-width:768px){

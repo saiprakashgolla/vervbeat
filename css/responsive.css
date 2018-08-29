@@ -1,136 +1,62 @@
 @media only screen and (max-width:1200px){
 
-    .dotdash {
-        margin-top: -10vw;
-    }
-    .mainbox-border{
-        margin-top: 1.7vw; 
-        padding: 11px;
-    }
-    .box-moment{
-        padding: 0px 0px;
-    }
-    .icons{
-        padding-top: 20vh;
-    }
+    .dotdash {margin-top: -10vw;}
+    .mainbox-border{margin-top: 1.7vw;  padding: 11px;}
+    .box-moment{ padding: 0px 0px; }
+    .icons{ padding-top: 20vh;}
 }
 
 @media only screen and (max-width:991px){
 
-    .productdescription{
-        font-size: 1.2vw;
-    }
-    .branddescription{
-        font-size: 1.2vw;
-    }
-    .mainbox-border{
-        padding: 0px 0px;
-        margin-top: 1.7vw; 
-    }
-    .wreduce {
-        width: 90%;
-    }
-    .title3 {
-        
-        padding-top: 19vw;
-    }
+    .productdescription{ font-size: 1.2vw; }
+    .branddescription{ font-size: 1.2vw;}
+    .mainbox-border{ padding: 0px 0px; margin-top: 1.7vw; }
+    .wreduce {width: 90%;}
+    .title3 { padding-top: 19vw; }
 }
 @media only screen and (max-width:767px){
-    .productshead img{
-        height: 2vw;
-    }
-    .ddc img {
-        width: 15vw;
-    }
-    .productshead {
-         padding-top: 0vw; 
-        padding-bottom: 2vw;
-    }
-    .productimg img {
-        height: 35vw;
-        width: 70%;
-    }
-    .brandimg img {
-        height: 35vw;
-        width: 70%;
-    }
-   
-    .empowering img {
-        width: 13vw;
-    }
-    .mail img {
-        width: 3vw;
-    }
-    .dotdash {
-        margin-top: -25vw;
-    }
-    .title3 {
-        
-        padding-top: 45vw;
-    }
-    .contactus{
-        padding: 2vw 4vw;
-    }
-    .productdescription{
-        font-size: 1.6vw;
-    }
-    .branddescription{
-        font-size: 1.6vw;
-    }
-    .productimg img {
-        height: 18vw;
-    }
-    .brandimg {
-    padding-top: 3vw;
-    }
-    .brandimg img {
-        height: 18vw;
-    }
-    .circle-1 {
-        left: 67vw;
-}
-.icons{
-    padding-top: 100vh;
-}
-.brand{
-    margin-top: 60vw;
-}
-.enterprise img {
-    height: 18vw;
-    width: 57%;
-}
-.startup img {
-    height: 22vw;
-    width: 57%;
-}
-.contactus img {
-    height: 2vw;
-}
+    .productshead img{ height: 2vw; }
+    .ddc img { width: 15vw; }
+    .productshead { padding-top: 0vw;  padding-bottom: 2vw; }
+    .productimg img { height: 35vw; width: 70%; }
+    .brandimg img { height: 35vw; width: 70%; }
+    .empowering img { width: 13vw; }
+    .mail img { width: 3vw;}
+    .dotdash { margin-top: -25vw; }
+    .title3 { padding-top: 45vw; }
+    .contactus{ padding: 2vw 4vw; }
+    .productdescription{font-size: 1.6vw;}
+    .branddescription{ font-size: 1.6vw; }
+    .productimg img { height: 18vw;}
+    .brandimg {padding-top: 3vw; }
+    .brandimg img { height: 18vw; }
+    .circle-1 {left: 67vw;}
+    .icons{padding-top: 100vh;}
+    .brand{ margin-top: 60vw;}
+    .enterprise img { height: 18vw; width: 57%;}
+    .startup img {height: 22vw; width: 57%;}
+    .contactus img {height: 2vw;}
+    .empowering img {width: 20vw;}
+    .ddc img {width: 20vw;}
+    .pab img {width: 20vw;}
 }
 @media only screen and (max-width:480px){
     
-    .productimg img {
-        height: 40vw;
-        width: 80%;
-    }
-    .brandimg img {
-        height: 40vw;
-        width: 80%;
-    }
-    .brand{
-        margin-top: 110vw;
-    }
-    .productdescription{
-        font-size: 3vw;
-    }
-    .branddescription{
-        font-size: 3vw;
-    }
-    .fwidget h4{
-        font-size: 12px;
-    }
-    .contactus img {
-        height: 3vw;
-    }
-
+    .productimg img {height: 40vw;width: 80%;}
+    .brandimg img { height: 40vw; width: 80%; }
+    .brand{ margin-top: 110vw;}
+    .productdescription{font-size: 3vw; }
+    .branddescription{font-size: 3vw;}
+    .fwidget h4{ font-size: 12px;}
+    .contactus img { height: 3vw;}
+    .ftext{ padding-left: 0px;}
+    .letsc img { height: 4.5vw; }
+    .font{ font-size: 10px;}
+    .productshead img { height: 4vw;}
+    .brandhead img {height: 4vw;}
+    .fadr { padding-left: 0px;}
+    .empowering img {width: 23vw;}
+    .ddc img { width: 25vw;}
+    .dotdash img {width: 16vw;}
+    .pab img {width: 25vw;}
 }
