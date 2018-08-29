@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+@font-face {
+    font-family: "Geomanist Black";
+    src:url("fonts/Geomanist-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: "Geomanist Medium";
+    src:url("fonts/Geomanist-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "Geomanist Bold";
+    src:url("fonts/Geomanist-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Geomanist Book";
+    src:url("fonts/Geomanist-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: "Geomanist Light";
+    src:url("fonts/Geomanist-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Geomanist Extra Light";
+    src:url("fonts/Geomanist-ExtraLight.otf") format("opentype");
+}
+@font-face {
+    font-family: "Geomanist Ultra";
+    src:url("fonts/Geomanist-Ultra.otf") format("opentype");
+}
+
+.fo-black{ font-family:"Geomanist Black" !important;}
+.fo-book{ font-family:"Geomanist Book" !important;}
+.fo-b{ font-family:"Geomanist Bold" !important;}
+.fo-m{  font-family: "Geomanist Medium" !important;}
+.fo-l{  font-family: "Geomanist Light" !important;}
+.fo-el{ font-family: "Geomanist Extra Light" !important;}
+.fo-r{  font-family: "Helvetica LT Std Roman" !important;}
+	
+					
+body {
+  font-family: "Geomanist Book";
+}											
+
+input,
+button,
+select,
+textarea {
+font-family:"Helvetica LT Std Bold";
+}
+/* Heading */
+h1, h2, h3{
+  font-family:"Geomanist Black";
+}
+.ct-menu{font-family: "Helvetica LT Std Bold";}
+#main-slider h1  {
+	  font-family: "Helvetica LT Std Black";
+}
+.bim-submenu a{font-family: "Helvetica LT Std Roman";}
+.title{
+	font-family: "Helvetica LT Std Black" !important;
+}
+.cs-effect .case{font-family: "Helvetica LT Std Roman";}
+.serv-top h5{font-family:"Helvetica LT Std Black" !important;}
+.our-client figcaption{font-family: "Helvetica LT Std Bold";}
+.insights figcaption{font-family: "Helvetica LT Std Bold";}
+#footer a{font-family:"Helvetica LT Std Light";}
+#footer .footer-widget {
+    font-family: Helvetica LT Std Light;
+}
+.our-clove figcaption{font-family: "Helvetica LT Std Bold";}
+.one-service p {font-family:"Helvetica LT Std Light";}
+.one-service h6 {
+    font-family: "Helvetica LT Std Light";
+}
+.one-service h6 b{font-family: "Helvetica LT Std Black";}
+.other-service h6 span{font-family: "Helvetica LT Std Light";}
+.careers-service p{font-family: "Helvetica LT Std Light";}
+
+.ctplace input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Helvetica LT Std Light";
+}
+.ctplace input::-moz-placeholder { /* Firefox 19+ */
+  font-family: "Helvetica LT Std Light";
+}
+.ctplace input:-ms-input-placeholder { /* IE 10+ */
+  font-family: "Helvetica LT Std Light";
+}
+.ctplace input:-moz-placeholder { /* Firefox 18- */
+  font-family: "Helvetica LT Std Light";
+}
+.completed-projects .down{font-family: "Helvetica LT Std Light";}
+.satisfied-clients .down{font-family: "Helvetica LT Std Light";}
+.employee-clients .down{font-family: "Helvetica LT Std Light";}
+.years-exp .down{font-family: "Helvetica LT Std Light";}
+.speak-to-team h6{font-family:"Helvetica LT Std Light" !important;}
+.csm-title a{font-family: "Helvetica LT Std Bold";}
+.ld-content-ft h6{font-family: "Helvetica LT Std Light";}
