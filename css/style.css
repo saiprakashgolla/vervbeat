@@ -163,16 +163,16 @@ body {
 .inspire{text-align:center;padding-left:10vw;}
 
 .empowering img{width:12vw;opacity:0.8;}
-.empowering{position:absolute;left:4vw;botom:0vw;}	
+.empowering{position:absolute;left:4vw;}	
 
-.mainbox{display:inline-block;width:40%;float:left;}
+.mainbox{display:inline-block;width:40%; float:left;}
 .mainbox-border{position:relative;border:1px solid #6e6e6e;border-right:none;padding:10px;margin-top:4vw;}
 .box-moment{margin-left:-2.5vw;width:100%;background:#fff;padding:5px 0px;}
 .box-moment h5, .box-moment h6{color:#000;}
 .box-moment p{color:#868686;line-height:14px;}
 .imgbox{display:inline-block;width:60%;}
 .wreduce{width:80%;}
-.product-and-brand{}
+
 .letsc img{height:2.5vw;}
 .letsd{width:40%;margin:auto;line-height:22px;}
 .l1{position:absolute;top:0px;left:40vw;}
@@ -212,11 +212,13 @@ footer p{line-height: 18px;
 .mw-95{max-width:95%;}	
 
 .inspire img{width:100%;}
+
+/* New CSS */
 .icons{
     padding-top:8vw;
 }
 title3{
-    padding-top:19vw
+    padding-top:65px;
 }
 .brand{
     margin-top: 1px;
@@ -224,6 +226,86 @@ title3{
 .font{
     font-size: 12px;
 }
+.moments{
+    color: lightblue;
+    padding-top: 10px;
+}
+.expertise-circle1{
+    position: relative;
+}
+.expertise-image1{
+    position: absolute;
+    top: 14%;
+    right: 0%;
+    left: 78px;
+}
+.expertise-image2{
+    position: absolute;
+    top: 70%;
+    right: 56px;
+}
+.expertise-circle2{
+    position: relative;
+    text-align: right;
+}
+.expertise-image3{
+    position: absolute;
+    top: 14%;
+    right: 13%;
+    left: 0px;
+}
+.expertise-image4{
+    position: absolute;
+    top: 80%;
+    right: 0px;
+}
+.bottom-line{
+    width: 73px;
+    height: 4px;
+    margin-bottom: 30px;
+}
+.our{
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+.arrow-left{
+    position: absolute;
+    top: 65px;
+}
+.about-circle{
+    position: absolute;
+    margin-top: -6vw;
+    left: -30px;
+}
+.about-circle img {
+    width: 80%;
+}
+.about-blueshape img{
+    width: 6%;
+    position: absolute;
+    right: 20%;
+    top: 0%;
+}
+.about-poly5{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+}
+.work-title{
+    width: 30%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:768px){
 .productdescription{    width: 80%;
