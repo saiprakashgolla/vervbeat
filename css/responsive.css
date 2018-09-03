@@ -5,6 +5,9 @@
     .box-moment{ padding: 0px 0px; }
     .icons{ padding-top: 20vh;}
     .title3 {padding-top: 24vw;}
+    .contact-head1{right: 38%;}
+    .work-head1{right: 43%;}
+
 }
 
 @media only screen and (max-width:991px){
@@ -14,6 +17,8 @@
     .mainbox-border{ padding: 0px 0px; margin-top: 1.7vw; }
     .wreduce {width: 90%;}
     .title3 { padding-top: 19vw; }
+    .contact-head1{right: 35%;}
+    .expertise-head {font-size: 100px;}
 }
 @media only screen and (max-width:767px){
     .productshead img{ height: 2vw; }
@@ -32,7 +37,7 @@
     .brandimg {padding-top: 3vw; }
     .brandimg img { height: 18vw; }
     .circle-1 {left: 67vw;}
-    .icons{padding-top: 140vh;}
+    .icons{padding-top: 75vh;}
     .brand{ margin-top: 60vw;}
     .enterprise img { height: 18vw; width: 57%;}
     .startup img {height: 22vw; width: 57%;}
@@ -40,7 +45,26 @@
     .empowering img {width: 20vw;}
     .ddc img {width: 20vw;}
     .pab img {width: 20vw;}
+    .contact-head1{top: -41px;}
+    .about-flashmob img{width: 50%;height: 300px; }
+    .contact-head1{right: 28%;}
+    .work-head1{top: -47px;}
+    .work-head1{right: 37%;}
+    .work-shape1 img{right: -15px;}
+    .wreduce .mainbox .box-moment{width:30%;}
+    .wreduce .imgbox{width:60%}
+    .mainbox-border {margin-top: 8vw;padding: 60px 0px;}
+    .wreduce{width: 80%;}
+    .love-head1{right: 33%;}
+    .home-head1{ top: 11%;right: 30%;}
 }
+@media only screen and (max-width:600px){
+    .mainbox-border {margin-top: 8vw;padding: 42px 0px;}
+    .icons{padding-top: 75vh;}
+    .contact-head{font-size: 87px;}
+    .contact-head1{right: 21%;}
+}
+
 @media only screen and (max-width:480px){
     
     .productimg img {height: 40vw;width: 80%;}
@@ -60,4 +84,24 @@
     .ddc img { width: 25vw;}
     .dotdash img {width: 16vw;}
     .pab img {width: 25vw;}
+    .contact-head1{top: -35px; font-size: 50px; right: 20%;}
+    .career-head{ font-size: 63px}
+    .our{font-size: 36px;}
+    .about-flashmob img{height: 200px;}
+    .expertise-head {font-size: 66px;}
+    .expertise-paddind{padding-bottom: 32vw;}
+    .work-head1{right: 30%; font-size: 55px; top: -32px} 
+    .work-text {padding-right: 100px;padding-left: 100px;}
+    .contact-head{ font-size: 68px;}
+    .mainbox-border {margin-top: 8vw;padding: 4px 0px;}
+    .love-head1{top: -20px; right: 22%; font-size: 34px;}
+    .love-head{font-size: 58px; padding-top: 0px;}
+    .icons{padding-top: 0vh;}
+    .home-head{ font-size: 52px;}
+    .home-head1 {top: 0%;right: 19%; font-size: 30px;}
+    #nav-icon{margin-right: 0px;}
+    .about-circle img { width: 63%;}
+    .expertise-image2 img {width: 60%;height: 150px;}
+    .expertise-image4 img { width: 60%; height: 150px; }
+
 }

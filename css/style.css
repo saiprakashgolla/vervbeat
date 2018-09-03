@@ -29,7 +29,7 @@ body {
   .bg-1 { 
       background-color: #fff; 
       color: #000;
-	  height:90vh;
+	  
 	  display:flex;
   }
   .bg-1 .vcenter{    margin-top: auto;
@@ -41,10 +41,8 @@ body {
     letter-spacing: 0.6vw;}
   .bg-1 h5{    margin-top: 8vw;
     font-size: 1.6vw;}
-  .bg-2 { 
-      background-color: #fff; 
+  .bg-2 {  
       color: #000;
-	  height:90vh;
 	  display:flex;
 	  margin-bottom:12vw;
   }
@@ -52,7 +50,7 @@ body {
   .bg-3 { 
       background-color: #ffffff; /* White */
       color: #555555;
-	  height:90vh;
+	 
 	  display:flex;
   }
   .bg-4 { 
@@ -106,13 +104,13 @@ body {
 .brandimg{padding-top:6vw;}
 .worktxt{    width: 18vw;
     position: absolute;
-    left:0vw;top:18vw;}	
+    left:0vw;top:7vw;}	
 .worktxt img{width:16vw;}
 .productimg img{height:15vw;}
-.enterprise{padding-top:8vw;}
+.enterprise{padding-top:5vw;}
 .enterprise img{height:10vw;}
 .brandimg img{height:15vw;}
-.startup{padding-top:6vw;}
+.startup{padding-top:4vw;}
 .startup img{height:12vw;}
 .productshead img{height:2vw;}
 .brandhead img{height:2vw;}
@@ -158,7 +156,7 @@ body {
 .i3 img{height:12vw;}
 .i4{position: absolute;
     left:0vw;top:14vw;}
-.i4 img{height:30vw;}
+.i4 img{height:26vw;}
 .i5{position: absolute;
     left:21vw;bottom:6vw;}
 .i5 img{height:5vw;}
@@ -222,7 +220,7 @@ footer p{line-height: 18px;
     padding-right: 10vw;}
 	
 .ml5_v{margin-left:5vw;}
-.mt17_v{margin-top:17vw;}	
+.mt17_v{margin-top:5vw;}	
 .mw-95{max-width:95%;}	
 
 .inspire img{width:100%;}
@@ -246,17 +244,30 @@ title3{
 }
 .expertise-circle1{
     position: relative;
+   
+}
+.expertise-circle1 img{
+    width: 60%;
 }
 .expertise-image1{
     position: absolute;
     top: 14%;
     right: 0%;
     left: 78px;
+   
+}
+.expertise-image1 img{
+    width: 100%
 }
 .expertise-image2{
     position: absolute;
     top: 70%;
     right: 56px;
+    
+}
+.expertise-image2 img{
+    width: 60%;
+    height: 190px;
 }
 .expertise-circle2{
     position: relative;
@@ -273,6 +284,10 @@ title3{
     top: 80%;
     right: 0px;
 }
+.expertise-image4 img{
+width: 60%;
+height: 190px;
+}
 .bottom-line{
     width: 73px;
     height: 4px;
@@ -280,7 +295,8 @@ title3{
 }
 .our{
     font-size: 42px;
-    letter-spacing: 1.2px;
+    letter-spacing: 3.2px;
+    font-family: 'BebasNeueRegular';
 }
 .arrow-left{
     position: absolute;
@@ -300,10 +316,10 @@ title3{
     right: 20%;
     top: 0%;
 }
-.about-poly5{
+.about-poly5 img{
     position: absolute;
     left: 0px;
-    height: 100%;
+    width: 10%;
 }
 .work-title{
     width: 30%;
@@ -324,27 +340,29 @@ title3{
     position: absolute;
     right: 0px;
     width: 4%;
-    top: 185%;
+   
 }
 .work-shape2 img {
     position: absolute;
-    left: 12%;
-    padding-top: 60px;
+    left: 7%;
+    padding-top: 30px;
+    width: 15%;
 }
 .mt0_v{
     margin-top: 0vw;
 }
 .work-shape3 img {
     position: absolute;
-    right: 12%;
-    padding-top: 60px;
+    right: 26%;
+    padding-top: 18px;
     width: 6%;
 }
 .work-shape4 img{
     width: 19%;
     position: absolute;
     top: 0%;
-    right: 94%;
+    right: 0;
+    left: -30%;
 }
 .career-shape1 img{
     position: absolute;
@@ -375,7 +393,7 @@ title3{
 .contact-background{
     background-color: #000;
     width: 100%;
-    height: 1050px;
+    height: 1106px;
 }
 .contact-inform{
     border-bottom: 2px dotted lightblue;
@@ -400,21 +418,126 @@ title3{
 .contact-head1{
     position: absolute;
     top: -7px;
-    right: 38%;
+    right: 40%;
     font-size: 70px;
     font-weight: bolder;
-    background:  -webkit-linear-gradient(left,#ff5e62 0, #ff9966 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background:  -webkit-linear-gradient(left,#ff9966 0, #ff5e62 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     font-weight: bold;
     font-family: 'BebasNeueRegular';
     text-align:  center;
 }
+.career-head{
+    font-size: 124px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    position: relative;
+    opacity: 1.7;
+    font-family: 'BebasNeueRegular';
+    line-height: 38px;
+}
+.about-larrow  img{
+    width: 4%;
+    position: absolute;
+    right: 40px;
+    padding-top: 6%;
+}
+.about-rarrow img {
+    width: 4%;
+    position: absolute;
+    left: 25px;
+    padding-top: 6%;
+}
+.bottom-head{
+    font-family:'BebasNeueRegular';
+    letter-spacing: 4px;
+}
+.expertise-shape img{
+    position: absolute;
+    width: 6%;
+    top: 0px;
+    right: 0px;
+}
+.about-flashmob img{
+    width: 100%;
+    height: 335px;
+}
+.expertise-head{
+    font-size: 124px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    position: relative;
+    opacity: 1.7;
+    font-family: 'BebasNeueRegular';
+    line-height: 38px;
+}
+.expertise-font{
+    font-size: 14px;
+}
+.expertise-paddind{
+    padding-bottom: 14vw;
+}
 
-
-
-
-
+.work-head1{
+    position: absolute;
+    top: -7px;
+    right: 44%;
+    font-size: 70px;
+    font-weight: bolder;
+    background:  -webkit-linear-gradient(left,#ff9966 0, #ff5e62 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'BebasNeueRegular';
+    text-align:  center;  
+}
+.love-head{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    position: relative;
+    opacity: 1.7;
+    font-family: 'BebasNeueRegular';
+    line-height: 38px;
+    padding-top: 60px;
+}
+.love-head1{
+    position: absolute;
+    top: 32px;
+    right: 40%;
+    font-size: 45px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(left,#ff9966 0, #ff5e62 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'BebasNeueRegular';
+    text-align: center;
+    letter-spacing: 2.2px;
+}
+.home-head{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    position: relative;
+    opacity: 1.7;
+    font-family: 'BebasNeueRegular';
+    line-height: 38px;
+    padding-top: 5%;
+}
+.home-head1{
+    position: absolute;
+    top: 33%;
+    right: 38%;
+    font-size: 45px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(left,#ff9966 0, #ff5e62 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'BebasNeueRegular';
+    text-align: center;
+    letter-spacing: 2.2px;
+}
 
 
 
@@ -479,7 +602,7 @@ title3{
     width: 40vw;
 }
 
-.wreduce {
+/* .wreduce {
     width: 100%;
 }
 .mainbox {
@@ -491,14 +614,14 @@ title3{
     position: relative;
     border: 1px solid #6e6e6e;
     /* border-right: none; */
-    padding: 10px;
+    /* padding: 10px;
     margin-top: 4vw;
 }
 .ml5_v {
     margin-left:0vw;
 }
 .box-moment {
-    /* margin-left: -2.5vw; */
+    margin-left: -2.5vw; 
     width: 100%;
     background: #fff;
     padding: 5px 0px;
@@ -506,5 +629,5 @@ title3{
 .imgbox {
     display: inline-block;
     width:100%;
-}
+}  */
 }

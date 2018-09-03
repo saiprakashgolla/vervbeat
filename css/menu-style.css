@@ -103,7 +103,7 @@ html li a, body li a {
 /* hamburger-icon  */
 #nav-icon {
   position: relative;
-  margin-right: 25px;
+  margin-right: 10px;
   width:30px;
   height:30px;
   z-index: 9999;
